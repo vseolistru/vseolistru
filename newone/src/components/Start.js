@@ -10,7 +10,7 @@ const Start = () => {
             <Link to="/">Navigation</Link>
             <div>
                 <h1 style={{textAlign: "center"}} id="heading">Школьникова Наталья Юрьевна 38лет</h1>
-                <img src={pic} alt="photo"/>
+                <img src={pic} alt={pic}/>
                 <p>Москва м. ВДНХ</p>
                 <div>
                     <p>Учитель математики, учитель физики</p>

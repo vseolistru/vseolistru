@@ -1,5 +1,5 @@
 *{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 h2 {
@@ -29,8 +29,60 @@ div p {
     src: url("./fonts/Arizonia-Regular.ttf");
 }
 .simple {
+    font-size: 26px;
     font-family: FontName;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    letter-spacing: 2px;
 }
 .complex {
     font-family: FontName_1;
+}
+
+.product-item {
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 25px 0;
+    background-color: rgba(209,116,25,0.33);
+}
+
+.products-item__title {
+    border: 1px solid #000000;
+    padding: 10px ;
+    margin: 10px auto;
+    width: 30%;
+}
+.product-item__description {
+    border: 1px solid #af1717;
+}
+.link {
+    text-transform: none;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.link:visited{
+    color: #0223b2;
+}
+.link:active {
+    color: #06721f;
+}
+.button {
+    display: inline-block;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid blueviolet;
+    font-family: FontName;
+}
+.button:hover {
+    background-color: white;
+    color: blueviolet;
 }
