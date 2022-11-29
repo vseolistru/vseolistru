@@ -1,11 +1,11 @@
 import './App.css';
-import pic from './img/avatar.jpg'
 import {Route, Routes} from 'react-router-dom'
 import Start from "./components/Start";
 import Nanigation from "./components/Nanigation";
 import Fonts from "./components/Fonts";
 import BlockElenent from "./components/BlockElenent";
 import Links from "./components/Links";
+import Images from "./components/Images";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Route path="/fonts" element={<Fonts/>}/>
         <Route path='/blocks' element={<BlockElenent/>}/>
         <Route path="/links" element={<Links/>}/>
+        <Route path="/images" element={<Images/>}/>
     </Routes>
   );
 }

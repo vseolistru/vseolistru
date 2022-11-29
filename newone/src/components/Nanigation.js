@@ -8,6 +8,7 @@ const Nanigation = () => {
             <Link to="/fonts">Fonts</Link>
             <Link to="/blocks">Blocks Element</Link>
             <Link to="/links">Links</Link>
+            <Link to="/images">Images</Link>
         </div>
     );
 };
