@@ -96,3 +96,45 @@ div p {
     max-width: 100%;
     object-fit: cover;
 }
+
+input {
+    border: none;
+    border-bottom: 3px solid blueviolet;
+}
+input:focus {
+    border-bottom: 1px solid blue;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.product__item {
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+    margin-top: 10px;
+}
+.product__item:first-child{
+    background-color: black;
+}
+.product__item:last-child{
+    background-color: #af1717;
+}
+/*nth-child (even)*/
+.product__item:nth-child(-n+3) {
+    background-color: aqua;
+}
+
+a::before {
+    content: '@';
+}
+a::after {
+    content: '';
+}
+
+a::selection {
+    background-color: burlywood;
+}
+
+
