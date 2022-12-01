@@ -9,6 +9,7 @@ import Images from "./components/Images";
 import Tables from "./components/Tables";
 import BlockElems from "./components/BlockElems";
 import Positions from "./components/Positions";
+import FlexBox from "./components/FlexBox";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/tables" element={<Tables/>}/>
         <Route path="/blockelems" element={<BlockElems/>}/>
         <Route path="/position" element={<Positions/>}/>
+        <Route path="/flex" element={<FlexBox/>}/>
     </Routes>
   );
 }

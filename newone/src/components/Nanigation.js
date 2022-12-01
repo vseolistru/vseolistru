@@ -12,6 +12,7 @@ const Nanigation = () => {
             <Link to="/tables">Tables</Link>
             <Link to="/blockelems">BlockElems</Link>
             <Link to="/position">Position</Link>
+            <Link to="flex">FlexBox</Link>
         </div>
     );
 };
