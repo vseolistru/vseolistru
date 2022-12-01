@@ -136,5 +136,99 @@ a::after {
 a::selection {
     background-color: burlywood;
 }
+table{
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
 
+tr:nth-child(even) {
+    background-color: white;
+}
 
+th {
+    border: 1px solid #000000;
+}
+td {
+    border: 1px solid #000000;
+}
+caption {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: FontName;
+}
+#parent {
+    width: 300px;
+    height: 400px;
+    background-color: #06721f;
+    position: relative;
+    top: 20px
+}
+
+#parent:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -40px;
+    width: 0;
+    height: 0;
+    border: 20px solid;
+    border-color: transparent transparent transparent black;
+}
+
+#child {
+    width: 200px;
+    height: 100px;
+    background-color: #af1717;
+    position: absolute;
+    left: 150px;
+}
+.black {
+    color: white;
+    background-color: black;
+}
+.fixed {
+    position: fixed;
+    top: 150px;
+    right: 200px;
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+}
+.sticky {
+    position: sticky;
+    background-color: cornflowerblue;
+    width: 220px;
+    height: 200px;
+    top: 20px;
+    right: 450px;
+}
+.dropdown {
+    display: none;
+    position: absolute;
+    background: blueviolet;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    top:37px;
+    left:-10px;
+}
+.roots {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    background: #ccc;
+    padding: 10px 15px;
+}
+.roots:hover .dropdown {
+    display: block;
+}
+.dropdown > li {
+    cursor: pointer;
+    list-style: none;
+}
+.dropdown > li:hover {
+    color: #fff;
+}

@@ -6,6 +6,9 @@ import Fonts from "./components/Fonts";
 import BlockElenent from "./components/BlockElenent";
 import Links from "./components/Links";
 import Images from "./components/Images";
+import Tables from "./components/Tables";
+import BlockElems from "./components/BlockElems";
+import Positions from "./components/Positions";
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         <Route path='/blocks' element={<BlockElenent/>}/>
         <Route path="/links" element={<Links/>}/>
         <Route path="/images" element={<Images/>}/>
+        <Route path="/tables" element={<Tables/>}/>
+        <Route path="/blockelems" element={<BlockElems/>}/>
+        <Route path="/position" element={<Positions/>}/>
     </Routes>
   );
 }

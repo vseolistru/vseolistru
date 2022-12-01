@@ -9,6 +9,9 @@ const Nanigation = () => {
             <Link to="/blocks">Blocks Element</Link>
             <Link to="/links">Links</Link>
             <Link to="/images">Images</Link>
+            <Link to="/tables">Tables</Link>
+            <Link to="/blockelems">BlockElems</Link>
+            <Link to="/position">Position</Link>
         </div>
     );
 };
