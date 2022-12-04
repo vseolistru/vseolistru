@@ -1,0 +1,117 @@
+.stage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.stage img {
+    margin:  10.4rem 0 0 12.7rem;
+    width: 67.8rem;
+    height: 70.9rem;
+}
+.stage__content{
+    position: relative;
+    margin-bottom: 5rem;
+}
+.stage__title {
+    flex-wrap: wrap;
+    width: 36rem;
+    height: 12rem;
+    font-size: 5rem;
+    line-height: 6rem;
+    color: #554d89;
+    font-weight: 700;
+}
+
+.stage__text {
+    margin-top: 2.2rem;
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+.stage__actions {
+    margin-top: 3rem;
+    line-height: 3.5;
+}
+
+.stage__actions .btn-dark {
+    margin-right: 4rem;
+}
+.link-arrow {
+    text-decoration: none;
+}
+.link-arrow:hover {
+    border-bottom: 1px solid #554d89;
+}
+
+.btn-circle {
+    position: absolute;
+    bottom: -3rem;
+    left: 55rem;
+    padding: 2.5rem 3.5rem;
+    border-radius: 5.5rem;
+    background-color: #6852ed;
+    display: flex;
+    color: #fff;
+}
+.btn-circle > img {
+    margin: auto;
+    width: 40px;
+    height: 60px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14.5rem;
+    margin-bottom: 2rem;
+}
+.info-block {
+    width: 360px;
+    height: 229px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px #e1e4ed);
+    background-color: #ffffff;
+    padding: 3rem ;
+}
+.info-block img {
+    color: #6852ed;
+    margin-bottom: 3rem;
+}
+.info-block:hover {
+    width: 360px;
+    height: 229px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px rgba(104,82,237,0.8));
+    background-image: linear-gradient(27deg, #6852ed 0%, #ba43fc 100%);
+    color: #fff;
+}
+.h2info-block__title {
+    font-size: 2.2rem;
+    line-height: 33px;
+    color: #554d89;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+.info-block__text {
+    color: #554d89;
+}
+.info-block_link {
+    display: none;
+}
+.info-block:hover img {
+    display: none;
+}
+
+.info-block:hover .info-block_link {
+    display: inline-block;
+    color: #fff;
+    margin-top: 3rem;
+}
+.info-block:hover .h2info-block__title {
+    color: #fff;
+}
+
+.info-block:hover .info-block__text {
+    color: #fff;
+}

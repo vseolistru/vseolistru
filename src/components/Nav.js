@@ -1,10 +1,12 @@
 import React from 'react';
+import {Route, Routes} from "react-router-dom";
+import Contetnt from "./Contetnt";
 
 const Nav = () => {
     return (
-        <div>
-            Nav
-        </div>
+        <Routes>
+            <Route path="/" exact element={<Contetnt/>}/>
+        </Routes>
     );
 };
 
