@@ -3,6 +3,7 @@ import pic from '../img/hero.png'
 import arrow from "../img/arrow-down.png"
 import {Link} from "react-router-dom";
 import Features from "./Features";
+import SecondContent from "./SecondContent";
 
 const Contetnt = () => {
     return (
@@ -21,9 +22,10 @@ const Contetnt = () => {
                     </div>
                 </div>
                 <img src={pic} alt="hero"/>
-                <Link to="#" className="btn-circle"><img src={arrow} alt="arrow"/></Link>
+                <a href="#features" className="btn-circle"><img src={arrow} alt="arrow"/></a>
             </div>
             <Features/>
+            <SecondContent/>
         </div>
     );
 };

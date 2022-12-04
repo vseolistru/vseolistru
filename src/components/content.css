@@ -115,3 +115,33 @@
 .info-block:hover .info-block__text {
     color: #fff;
 }
+.article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12rem;
+    flex-shrink: 0;
+}
+
+.article img {
+    margin-right: 7.3rem;
+}
+
+.article__title {
+    width: 412px;
+    height: 126px;
+    font-size: 2.8rem;
+    line-height: 42px;
+    color: #554d89;
+    font-weight: 700;
+}
+.article__text {
+    width: 480px;
+    height: 84px;
+    font-size: 1.8rem;
+    line-height: 28px;
+    color: #716c80;
+    font-weight: 400;
+    padding: 4.4rem 0;
+    margin-bottom: 8.4rem;
+}

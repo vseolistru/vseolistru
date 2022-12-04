@@ -8,7 +8,7 @@ import {Link} from "react-router-dom";
 
 const Features = () => {
     return (
-        <div className="features">
+        <div id="features" className="features">
             <div className="info-block">
                 <img src={dollar} alt="dollar"/>
                 <h2 className="h2info-block__title">Corporate finance</h2>

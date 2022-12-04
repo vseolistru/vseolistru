@@ -1,38 +1,128 @@
-.App {
-  text-align: center;
+.wrapper {
+  width: 1150px;
+  margin: 0 auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  padding: 2.8rem 0 1.7rem;
+}
+.top-header__text {
+  color: #716c80;
+  font-size: 1.6rem;
+}
+
+.top-header__phone {
+  text-decoration: none;
+  color: #716c80;
+  font-size: 1.6rem;
+}
+.top-header__phone::before {
+  content: url("./img/phone.png");
+  margin-right: 0.8rem;
+}
+.top-header__phone:hover {
+  text-decoration: underline;
+}
+.btn {
+  border: none;
+  text-decoration: none;
+  height: 4rem;
+  border-radius: 4rem;
+  padding: 0 1.7rem;
+}
+
+ul {
+  list-style: none;
+}
+
+h1, h2, h3 {
+  font-family: Poppins;
+  font-weight: bold;
+  color: #554d89;
+}
+.divider {
+  border: none;
+  border-bottom: 1px solid #e7e9f1;
+}
+
+.main-menu{
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 2.6rem;
+}
+.menu-navbar{
+  display: flex;
+  align-items: center;
+}
+.menu__logo {
+  display: block;
+  margin-right: 5.5rem;
+}
+.header-menu{
+  display: flex;
+}
+.menu__items {
+  margin-right: 3rem;
+  position: relative;
+  padding: 1.8rem 0;
+}
+.menu__items:hover .menu__submenu{
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.menu__items:last-child {
+  margin-right: 0;
+}
+.menu__link{
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #5b5766;
+  font-weight: 400;
+  font-family: "Nunito";
+}
+.menu__submenu {
+  display: none;
+  position: absolute;
+  top: 3rem;
+  left: -4rem;
+  padding: 3.5rem 10rem 3.5rem 4rem;
+  border-radius: 1rem;
+  filter: drop-shadow(0 0 10px #e1e4ed);
+  background-color: #ffffff;
+  margin-top: 3rem;
+}
+.menu__submenu > .menu__items {
+  padding: 0;
+}
+.menu__link:hover {
+  color: #554d89;
+  text-shadow: 0 0 1px;
+}
+.menu__link_active {
+  color: #554d89;
+  font-weight: 900;
+}
+.btn-light {
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #6852ed;
+  color: #6852ed;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-dark {
+  color: #fff;
+  padding: 1.3rem 3rem;
+  border-radius: 25px;
+  background-image: linear-gradient(27deg, #6852ed 0%, #ba43fc 100%);
 }
+
+.menu-actions span {
+  display: inline-block;
+  padding: 0 0.8rem;
+}
+
+/*content*/
+@import url("./components/content.css");
