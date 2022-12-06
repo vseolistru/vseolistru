@@ -1,0 +1,15 @@
+.date-time {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+}
+.date-time label {
+    margin-left: 10px;
+    padding-right: 20px;
+}
+.date-time input {
+    padding: 10px 5px;
+    margin: 5px 10px;
+
+}
