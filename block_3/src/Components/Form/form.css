@@ -1,0 +1,115 @@
+.subscription {
+    background-color: #483e3e;
+    width: 600px;
+    padding: 10px 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.subscription__field {
+    display: flex;
+    margin-top: 10px;
+}
+.subscription__field input {
+    height: 28px;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    border:  none;
+    outline: none;
+    color: white;
+    border-bottom: 2px solid #fff;
+}
+.subscription__field input:focus {
+    background-color: #7c6e6e;
+    border: 1px solid #1d0869;
+}
+
+.subscription__field button {
+    width: 100px;
+    padding: 0 10px;
+    margin-left: 5px;
+    background-image: linear-gradient(38deg, #7c6e6e 0%, #fcc143 100%);
+}
+.subscription__text-input {
+   display: block;
+    flex-direction: column;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.subscription__buttons {
+    display: block;
+    flex-direction: column;
+}
+
+.subscription__buttons-checkbox {
+    padding: 15px 0;
+    font-size: 20px;
+}
+.subscription__buttons-checkmark input[type="checkbox" i]{
+    width: 20px;
+    height: 20px;
+}
+
+.subscription__buttons-radio {
+    padding: 20px 0;
+}
+
+.subscription__buttons-radio-not-clicked {
+    justify-content: center;
+    align-content: center;
+    height: 51px;
+    background: #e30928;
+    border: solid 1px #b5b5b5;
+    cursor: pointer;
+    color: #dddddd;
+    font-weight: bold;
+    padding: 9px 10px;
+    margin: 0 2px;
+}
+.subscription__buttons-radio input {
+    display: none;
+}
+
+.subscription__buttons-radio label:hover {
+    background: #b5b5b5;
+}
+
+.clicked {
+    justify-content: center;
+    align-content: center;
+    background: #7c6e6e;
+    height: 51px;
+    border: solid 1px #b5b5b5;
+    cursor: pointer;
+    color: #dddddd;
+    font-weight: bold;
+    padding: 9px 10px;
+    margin: 0 2px;
+}
+.subscription__select {
+    padding: 15px 0;
+}
+.subscription__select select {
+    width: 200px;
+    height: 40px;
+    outline: none;
+    font-size: 22px;
+    background: #7c6e6e;
+    color: #fff;
+}
+.subscription__textarea textarea {
+    outline: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #7c6e6e;
+    color: #fff;
+}
+.subscription p {
+    font-size: 20px;
+    font-weight: bold;
+}
