@@ -8,6 +8,9 @@ import DateForm from "./Components/Date-Form/DateForm";
 import Filter from "./Components/Filter/Filter";
 import Semantic from "./Components/Semantic/Semantic";
 import Footer from "./Components/Footer/Footer";
+import Transformation from "./Components/Transformation/Transformation";
+import Animation from "./Components/Animation/Animation";
+import Adaptive from "./Components/Adaptive/Adaptive";
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
             <Route path="/dateform" element={<DateForm/>}/>
             <Route path="/filters" element={<Filter/>}/>
             <Route path="semantic" element={<Semantic/>}/>
+            <Route path="/transform" element={<Transformation/>}/>
+            <Route path="/animation" element={<Animation/>}/>
+            <Route path="/adaptive" element={<Adaptive/>}/>
           </Routes>
       </div>
       <Footer/>

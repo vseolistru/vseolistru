@@ -1,6 +1,8 @@
 .subscription {
+    display: flex;
+    flex-direction: column;
     background-color: #483e3e;
-    width: 600px;
+    max-width: 600px;
     padding: 10px 10px;
     color: #fff;
     margin-left: 10px;

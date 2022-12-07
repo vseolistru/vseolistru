@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Link} from "react-router-dom";
+
 
 const FormLesson = () => {
     const [input, setInput] = useState('')
@@ -53,7 +53,7 @@ const FormLesson = () => {
 
     return (
         <div>
-            <Link to="/" className='nav-link'>{'<- '} &nbsp; Main</Link>
+
             <br/>
             <form className="subscription">
                 <div className="subscription__field">

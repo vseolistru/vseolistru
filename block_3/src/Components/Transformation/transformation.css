@@ -1,0 +1,15 @@
+.transformation img {
+    transition: transform 1s;
+    transform: perspective(1000px);
+    /*backface-visibility: hidden;*/
+}
+.transformation img:hover {
+    /*transform-style: preserve-3d;*/
+    /*background-color: dodgerblue;*/
+    /*color: white;*/
+    transform: perspective(800px) rotateY(180deg);
+    /*transform: scale(2,2);*/
+    /*transform: skew(22deg) ;*/
+    /*transform: translate(50px, 30px);*/
+}
+

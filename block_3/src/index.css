@@ -19,5 +19,8 @@ code {
 @import url('./Components/Date-Form/dateForm.css');
 @import url('./Components/Filter/filter.css');
 @import url('./Components/Semantic/semantic.css');
+@import url('./Components/Transformation/transformation.css');
+@import url('./Components/Animation/animation.css');
+@import url('./Components/Adaptive/adaptive.css');
 
 @import url('./Components/Footer/footer.css');

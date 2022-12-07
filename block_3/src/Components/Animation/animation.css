@@ -1,0 +1,25 @@
+.block {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #1d0869;
+    box-shadow: 0 0  30px 0 #cc0b0b;
+    animation-name: moveForward;
+    animation-duration: 30s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes moveForward {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: 980px;
+    }
+    100% {
+        left: 0;
+    }
+
+}

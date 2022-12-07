@@ -1,9 +1,9 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+
 
 const DateForm = () => {
     return (
-        <div> <Link to="/" className='nav-link'>{'<- '} &nbsp; Main</Link>
+        <div>
             <form className="date-time">
                 <label>
                     Calendar

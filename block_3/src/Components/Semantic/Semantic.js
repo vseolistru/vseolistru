@@ -1,10 +1,10 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+
 
 const Semantic = () => {
     return (
         <div>
-            <Link to="/" className='nav-link'>{'<- '} &nbsp; Main</Link>
+
             <main>
                 Some main TAG
                 <section>

@@ -10,6 +10,9 @@ const Navigation = () => {
             <Link to="/dateform">Date-Form</Link>
             <Link to="/filters">Filter</Link>
             <Link to="/semantic">Semantic</Link>
+            <Link to="/transform">Transform</Link>
+            <Link to="/animation">Animation</Link>
+            <Link to="/adaptive">Adaptive</Link>
         </div>
     );
 };
