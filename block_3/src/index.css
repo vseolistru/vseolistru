@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,3 +18,6 @@ code {
 @import url('./Components/Form/form.css');
 @import url('./Components/Date-Form/dateForm.css');
 @import url('./Components/Filter/filter.css');
+@import url('./Components/Semantic/semantic.css');
+
+@import url('./Components/Footer/footer.css');

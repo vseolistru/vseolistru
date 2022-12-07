@@ -1,0 +1,13 @@
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 280px;
+    background-color: #483e3e;
+    color: #fff;
+    padding: 20px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
