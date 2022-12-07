@@ -1,0 +1,17 @@
+.filters img {
+    transition: 1s;
+    padding: 10px 10px;
+}
+
+.filters img:hover {
+    filter: blur(5px);
+    /*filter: brightness(0.4);*/
+    /*filter: contrast(200%);*/
+    /*filter: drop-shadow(16px 16px 20px blue);*/
+    /*filter: grayscale(75%);*/
+    /*filter: hue-rotate(90deg);*/
+    /*filter: invert(75%);*/
+    /*filter: opacity(50%);*/
+    /*filter: saturate(80%);*/
+    /*filter: sepia(70%);*/
+}

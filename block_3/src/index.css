@@ -15,3 +15,5 @@ code {
 @import url('./Components/Nav/Navigation.css');
 @import url('./Components/LessonFirst/LessonFirst.css');
 @import url('./Components/Form/form.css');
+@import url('./Components/Date-Form/dateForm.css');
+@import url('./Components/Filter/filter.css');
