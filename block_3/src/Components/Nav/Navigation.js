@@ -13,6 +13,7 @@ const Navigation = () => {
             <Link to="/transform">Transform</Link>
             <Link to="/animation">Animation</Link>
             <Link to="/adaptive">Adaptive</Link>
+            <Link to="/preprocessor">Prep</Link>
         </div>
     );
 };

@@ -24,5 +24,6 @@ code {
 @import url('./Components/Transformation/transformation.css');
 @import url('./Components/Animation/animation.css');
 @import url('./Components/Adaptive/adaptive.css');
+@import url('./Components/Preppocessor/preprop.scss');
 
 @import url('./Components/Footer/footer.css');
